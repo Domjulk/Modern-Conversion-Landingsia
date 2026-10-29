@@ -98,7 +98,8 @@ export default function Home() {
       <section className="hp-wrap hp-hero" id="top">
         <div className="hp-hero-copy">
           <div className="hp-eyebrow">Area 11 · Garki · Abuja</div>
-          <h1>Central, Serene &amp; <span>Elevated</span> Event Space in Garki</h1>
+          <h1 className="hp-hero-brand"><span className="hp-hero-brand-name">HighPoint</span><span className="hp-hero-brand-type">Event &amp; Conference Hall</span></h1>
+          <p className="hp-hero-tagline">A central, serene &amp; elevated event space in Garki.</p>
           <p className="hp-lead">Set above the everyday. HighPoint in Area 11 offers an ambient, climate-controlled conference and banquet hall, framed by panoramic floor-to-ceiling windows and wide Abuja skyline views.</p>
           <div className="hp-badges">
             <span className="hp-badge"><MapPin size={13} /> Central Garki</span>
